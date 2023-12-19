@@ -1,0 +1,149 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Poppins:wght@300;400;500;600&display=swap');
+
+:root{
+  --primaryfont: 'Poppins', sans-serif;
+  --secondaryfont: 'PT Sans', sans-serif;
+  --secondarycolor:#353535;
+  
+}
+
+
+
+
+/* COMMON CSS START */
+
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul ol{
+  list-style:none;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+h1, h2,h3, h4, h5, h6, ul, p, span, ol{
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  font-family: arial;
+}
+
+.button{
+    padding:16px 45px;
+    display: inline-block;
+    border-radius:20px;
+    background-color: #FC0;
+    color:#FFFFFF
+}
+
+.button.outline{
+    background-color: transparent;
+    border: 1px solid black;
+    color:black;
+    padding:16px 18px ;
+}
+/* COMMON CSS AND */
+
+
+/* NAVBER START */
+nav{
+  background-color:lightblue;
+}
+
+@media (mim-width:320px) and (max-width:767px)
+
+nav {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+}
+
+nav .navbar-toggler{
+      border:0;
+      box-shadow: none !important;
+  }
+
+ #myMenu ul li a{
+  color: var(--secondarycolor);
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 200%;
+  padding: 18px 22px 5px;
+  position: relative;
+
+ }
+
+
+ #myMenu ul li a::after{
+  content: '';
+  width: 0%;
+  height: 1px;
+  background-color: var(--secondarycolor);
+  bottom:0;
+  left:0;
+  position: absolute;
+  transition:0.3s;
+ }
+
+ #myMenu ul li:hover a::after{
+  width: 100%;
+ }
+
+
+
+/* NAVBER START */
+
+
+/* BANNER START */
+#banner{
+ padding: 71px 0 144px;
+
+}
+
+#banner .banner-cnt h4{
+  color: var(--secondarycolor);
+
+font-size: 24px;
+font-weight: 400;
+
+
+}
+
+#banner .banner-cnt h2{
+  color: var(--secondarycolor);
+
+font-size: 64px;
+font-weight: 700;
+
+
+  
+}
+
+#banner .banner-cnt p{
+color: var(--secondarycolor);
+font-size: 20px;
+font-weight: 400;
+padding:12px 0 0 0;
+
+}
+
+
+
+
+
+/* BANNER AND*/
+
+
+
+
